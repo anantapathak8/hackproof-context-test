@@ -1,7 +1,5 @@
-// EXTERNAL ALGORITHM - TEST FILE
-
-function calculateScore(data) {
-    return data.value * 42;
+function calculateScore(input) {
+  return input * 42;
 }
 
-module.exports = { calculateScore };
+export { calculateScore };
